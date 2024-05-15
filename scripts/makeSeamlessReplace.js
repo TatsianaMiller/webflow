@@ -1,4 +1,4 @@
-({
+(() => {
 
 const cache = {};
   let clicked = false;
@@ -56,5 +56,7 @@ const cache = {};
   }
 
   document.addEventListener("DOMContentLoaded", leazyRender);
+  
+
   
 })()
