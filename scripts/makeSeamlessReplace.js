@@ -54,5 +54,5 @@
       .then(callback);
   }
 
-  leazyRender();
+document.addEventListener("DOMContentLoaded", leazyRender);
 
