@@ -1,3 +1,3 @@
 # my utils
 
-**<script type="module" src="https://github.com/TatsianaMiller/webflow/blob/main/index.js"></script>**
+**<script src="https://raw.githubusercontent.com/TatsianaMiller/webflow/main/scripts/makeSeamlessReplace.js"></script>**
