@@ -1,4 +1,5 @@
 (() => {
+    console.log("makeSeamlessReplace connected!");
   const cache = {};
   let clicked = false;
 
@@ -55,5 +56,5 @@
   }
 
   document.addEventListener("DOMContentLoaded", leazyRender);
-  console.log("makeSeamlessReplace connected!");
+
 })();
