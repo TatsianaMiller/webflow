@@ -1,4 +1,4 @@
-function makeSeamlessReplace() {
+export function makeSeamlessReplace() {
   const cache = {};
   let clicked = false;
 
