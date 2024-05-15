@@ -1,4 +1,4 @@
-function makeSeamlessReplace() {
+
   const cache = {};
   let clicked = false;
 
@@ -55,4 +55,4 @@ function makeSeamlessReplace() {
   }
 
   leazyRender();
-}
+
