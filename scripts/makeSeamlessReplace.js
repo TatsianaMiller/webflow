@@ -55,4 +55,4 @@
   }
 
 document.addEventListener("DOMContentLoaded", leazyRender);
-
+console.log('makeSeamlessReplace connected!')
