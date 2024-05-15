@@ -22,6 +22,7 @@ const cache = {};
       console.log(cache);
 
       function apply(html) {
+        cache[fetchUrl] = html;
         const htmlClone = document.createElement("div");
         htmlClone.innerHTML = html;
         const newContent = htmlClone.querySelector(`#${content}`);
@@ -29,7 +30,7 @@ const cache = {};
         containerElement.innerHTML = "";
         containerElement.appendChild(newContent);
 
-        cache[fetchUrl] = html;
+     
         clicked = false;
       }
 
@@ -55,8 +56,6 @@ const cache = {};
       .then(callback);
   }
 
-  document.addEventListener("DOMContentLoaded", leazyRender);
-  
-
+ leazyRender();
   
 })()
